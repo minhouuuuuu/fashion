@@ -1,0 +1,32 @@
+.wrapper{
+  position: relative;
+}
+.title{
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+.container{
+    height: 200vh;
+    background-color: rgb(255, 255, 255);
+  }
+  
+.stickyMask{
+  display: flex;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  mask-image: url('/medias/art.svg');
+  mask-position: 52.35% center;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+
+.stickyMask video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
