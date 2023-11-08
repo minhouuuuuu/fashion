@@ -33,7 +33,10 @@ export default function Home() {
 
     return (
         <div className={styles.wrapper}>
-            <p className={styles.title}>Made with love by Minh NGUYEN</p>
+            <p className={styles.title}>
+                Made with love by Minh NGUYEN (mobile version is on working in
+                progress)
+            </p>
             <div ref={container} className={styles.container}>
                 <div ref={stickyMask} className={styles.stickyMask}>
                     <video autoPlay muted loop>
